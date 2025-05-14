@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<title>Toque de brillo</title>
+
+		<link rel="stylesheet" href="/src/libs/owl-carousel/owl.carousel.min.css" />
+		<link
+			rel="stylesheet"
+			href="/src/libs/owl-carousel/owl.theme.default.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="/src/libs/lightgallery/css/lightgallery.min.css"
+		/>
+		<link rel="stylesheet" href="/src/css/main.css" />
+	</head>
+
+	<body>
+		<main>
+			<div id="popup-carrito" class="">
+				<div class="cortina-popup"></div>
+				<div id="content-carrito">
+					<div id="principal-content-carrito-card">
+						<div class="header-carrito">
+							<h3>Carrito de compras</h3>
+							<a href="#" id="btn-cerrar-popup">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+									<title>close-circle-outline</title>
+									<path
+										d="M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2C6.47,2 2,6.47 2,12C2,17.53 6.47,22 12,22C17.53,22 22,17.53 22,12C22,6.47 17.53,2 12,2M14.59,8L12,10.59L9.41,8L8,9.41L10.59,12L8,14.59L9.41,16L12,13.41L14.59,16L16,14.59L13.41,12L16,9.41L14.59,8Z"
+									/>
+								</svg>
+							</a>
+						</div>
+
+						<div id="content-card-carrito"></div>
+					</div>
+
+					<a href="#" id="btn-comprar">ENVIAR COMPRA</a>
+				</div>
+			</div>
+			<header>
+				<div id="h-h">
+					<span> Por compras superiores a $100.000 el envio es gratis. </span>
+				</div>
+
+				<div id="h-f">
+					<div class="menu-btn-container">
+						<a href="#" id="menu-btn">
+							<svg style="width: 35px; height: 35px" viewBox="0 0 24 24">
+								<path
+									fill="#FF6634"
+									d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z"
+								/>
+							</svg>
+						</a>
+					</div>
+
+					<div id="c-l-p">
+						<img src="/src/img/commons/logo.png" alt="" />
+					</div>
+
+					<div class="nav-container">
+						<nav>
+							<ul>
+								<li>
+									<a href="/">Inicio</a>
+								</li>
+
+								<li>
+									<a class="" href="/quienes-somos/">Quienes Somos</a>
+								</li>
+
+								<li>
+									<a class="" href="/nuestros-productos/">Nuestros Productos</a>
+								</li>
+
+								<li>
+									<a href="/servicio-al-cliente/">Servico al cliente</a>
+								</li>
+
+								<li>
+									<a href="/trabaja-con-nosotros/">Trabaja con nosotros</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<span id="content-btn-carrito">
+						<a href="#" id="btn-carrito">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+								<title>cart</title>
+								<path
+									d="M17,18C15.89,18 15,18.89 15,20A2,2 0 0,0 17,22A2,2 0 0,0 19,20C19,18.89 18.1,18 17,18M1,2V4H3L6.6,11.59L5.24,14.04C5.09,14.32 5,14.65 5,15A2,2 0 0,0 7,17H19V15H7.42A0.25,0.25 0 0,1 7.17,14.75C7.17,14.7 7.18,14.66 7.2,14.63L8.1,13H15.55C16.3,13 16.96,12.58 17.3,11.97L20.88,5.5C20.95,5.34 21,5.17 21,5A1,1 0 0,0 20,4H5.21L4.27,2M7,18C5.89,18 5,18.89 5,20A2,2 0 0,0 7,22A2,2 0 0,0 9,20C9,18.89 8.1,18 7,18Z"
+								/>
+							</svg>
+						</a>
+					</span>
+				</div>
+				<a
+					id="btn-whatsapp"
+					href="https://api.whatsapp.com/send?phone=573108008962&amp;text=Buen%20d%C3%ADa.|"
+					target="_blank"
+				>
+					<svg style="width: 40px; height: 40px" viewBox="0 0 24 24">
+						<path
+							fill="#ffffff"
+							d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7 8.5 7 9.71C7 10.93 7.89 12.1 8 12.27C8.14 12.44 9.76 14.94 12.25 16C12.84 16.27 13.3 16.42 13.66 16.53C14.25 16.72 14.79 16.69 15.22 16.63C15.7 16.56 16.68 16.03 16.89 15.45C17.1 14.87 17.1 14.38 17.04 14.27C16.97 14.17 16.81 14.11 16.56 14C16.31 13.86 15.09 13.26 14.87 13.18C14.64 13.1 14.5 13.06 14.31 13.3C14.15 13.55 13.67 14.11 13.53 14.27C13.38 14.44 13.24 14.46 13 14.34C12.74 14.21 11.94 13.95 11 13.11C10.26 12.45 9.77 11.64 9.62 11.39C9.5 11.15 9.61 11 9.73 10.89C9.84 10.78 10 10.6 10.1 10.45C10.23 10.31 10.27 10.2 10.35 10.04C10.43 9.87 10.39 9.73 10.33 9.61C10.27 9.5 9.77 8.26 9.56 7.77C9.36 7.29 9.16 7.35 9 7.34C8.86 7.34 8.7 7.33 8.53 7.33Z"
+						></path>
+					</svg>
+				</a>
+				<a
+					id="btn-insta"
+					href="https://www.instagram.com/toquedebrilloaccesorios/"
+					target="_blank"
+				>
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+						<title>instagram</title>
+						<path
+							d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z"
+						/>
+					</svg>
+				</a>
+			</header>
+
+			<section id="s-quienes-somos">
+				<!-- <img src="/src/img/contexto.png" alt="" /> -->
+				<!-- <img src="/src/img/logo-b.png" alt="" /> -->
+
+				<div id="content-mis-vis">
+					<img src="/src/img/logo-toque.png" alt="" />
+					<img src="/src/img/eslogan-des.jpg" alt="" />
+				</div>
+
+				<div id="content-mis-vis">
+					<img src="/src/img/mision.png" alt="" />
+					<img src="/src/img/vision.png" alt="" />
+				</div>
+
+				<img src="/src/img/valores.jpg" alt="" />
+
+				<div id="content-principios">
+					<img src="/src/img/valor-1.jpg" alt="" />
+					<img src="/src/img/valor-2.jpg" alt="" />
+					<img src="/src/img/valor-3.jpg" alt="" />
+				</div>
+				<img src="/src/img/principios.jpg" alt="" />
+
+				<div id="content-principios">
+					<img src="/src/img/principio-1.jpg" alt="" />
+					<img src="/src/img/principio-2.jpg" alt="" />
+					<img src="/src/img/principio-3.jpg" alt="" />
+				</div>
+
+				<!-- <img src="/src/img/logo-b.png" alt="" />
+
+				<div id="content-logo-qs">
+					<img src="/src/img/logo-toque.png" alt="" />
+				</div>
+
+				<img src="/src/img/eslogan-b.png" alt="" />
+
+				<div id="content-des-valores">
+					<img src="/src/img/eslogan-des.jpg" alt="" />
+				</div> -->
+
+				<img src="/src/img/organigrama.jpg" alt="" />
+
+				<div id="content-des-valores">
+					<img src="/src/img/organigrama-des.jpg" alt="" />
+				</div>
+
+				<!-- <img src="/src/img/niveles-func-b.png" alt="" />
+
+				<div id="content-des-valores">
+					<img src="/src/img/niveles-f-des.jpg" alt="" />
+				</div>
+
+				<img src="/src/img/niveles-car-b.png" alt="" />
+
+				<div id="content-des-valores">
+					<img src="/src/img/cargo-des.jpg" alt="" />
+				</div> -->
+
+				<!-- <img src="/src/img/resena.png" alt="" />
+
+				<div id="content-des-valores">
+					<img src="/src/img/resena-des.png" alt="" />
+				</div> -->
+
+				<img src="/src/img/equipo-de-trabajo.jpg" alt="" />
+
+				<div id="content-equipo">
+					<img src="/src/img/chiquiza.jpg" alt="" />
+					<img src="/src/img/romerito.jpg" alt="" />
+				</div>
+			</section>
+
+			<footer>
+				<div>
+					<div class="copyrigth-container">
+						<p>SERVICIO NACIONAL DE APRENDIZAJE (SENA)</p>
+
+						<p>Copyright © 2023</p>
+					</div>
+				</div>
+			</footer>
+		</main>
+
+		<!-- Scripts -->
+		<script src="/src/libs/jquery/jQuery.min.js"></script>
+		<script src="/src/libs/owl-carousel/owl.carousel.min.js"></script>
+		<script src="/src/libs/lightgallery/js/lightgallery.min.js"></script>
+		<script src="/src/libs/lightgallery/js/lg-thumbnail.min.js"></script>
+		<script src="/src/js/general-functions.js"></script>
+		<script src="/src/js/index-script.js"></script>
+	</body>
+</html>
+ss
